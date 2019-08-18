@@ -156,4 +156,4 @@ protectedvoid onCreate(Bundle savedInstanceState) {
 
 #### sdk插件更新原理：
 篇幅有点长不想再写了，详见我另一份文档：
-[插件更新原理](https://github.com/HomerLian/PluginHotFit/blob/master/docs/%E6%8F%92%E4%BB%B6%E7%83%AD%E6%9B%B4%E6%96%B0%E6%96%87%E6%A1%A3.md)
+[插件更新原理](https://github.com/HomerLian/PluginFramework/blob/master/docs/%E6%8F%92%E4%BB%B6%E7%83%AD%E6%9B%B4%E6%96%B0%E6%96%87%E6%A1%A3.md)
