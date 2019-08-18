@@ -155,5 +155,5 @@ protectedvoid onCreate(Bundle savedInstanceState) {
 到这里为止为主要的插件开发思路，其中还有像插件工程中的AndroidMinifest.xml等这些因为插件apk并不是通过安装这种正常方式被加载到工程中的，所以在这里声明权限，声明组件并不生效。
 
 #### sdk插件更新原理：
-篇幅有点长不想再写了，详见我另一份文档：
+篇幅有点长不想再写了，详见我另一份文档,这篇文档是因为当时协调开发一个插件更新后台的时候，后台不理解为什么要有两个版本号，沟通好久之后我就写了篇文档给后台小伙伴看：
 [插件更新原理](https://github.com/HomerLian/PluginFramework/blob/master/docs/%E6%8F%92%E4%BB%B6%E7%83%AD%E6%9B%B4%E6%96%B0%E6%96%87%E6%A1%A3.md)
