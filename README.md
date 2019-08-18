@@ -150,7 +150,7 @@ protectedvoid onCreate(Bundle savedInstanceState) {
 
 #### 简易原理流程图：
 > 根据上诉内容，这个插件的具体流程为首先我们有一个宿主程序，这个程序给我提供了必要的Android 环境，然后我们书写一个单例的管理类，在单例的管理类中我们加载外部的dex，并将外部apk内的资源多出并且set到插件内部的管理中。当我们需要启动内部“acticity”的时候，首先启动外部代理的activity，然后通过特定标签加载出所需要的页面。
-![简易原理流程图](https://github.com/HomerLian/PluginHotFit/blob/master/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![简易原理流程图](https://github.com/HomerLian/PluginFramework/blob/master/docs/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%80%E6%98%93%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 到这里为止为主要的插件开发思路，其中还有像插件工程中的AndroidMinifest.xml等这些因为插件apk并不是通过安装这种正常方式被加载到工程中的，所以在这里声明权限，声明组件并不生效。
 
